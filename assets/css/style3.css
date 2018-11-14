@@ -1,0 +1,26 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+
+}
+
+p {
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.banner {
+	height: 100vh; /*viewport height*/ 
+	position: relative;
+	background-image: url(../images/sunset.jpg);
+}

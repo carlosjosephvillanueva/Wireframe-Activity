@@ -1,0 +1,29 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.banner {
+	height: 50vh; /*viewport height*/ 
+	position: relative;
+	height: 700px;
+	background-image: url(../images/sunset.jpg);
+}
+
+.form {
+	border:	5px solid black;
+	text-align: center;
+	width: 70%;
+	padding: 40px;
+	position: absolute; /*position will base on browser*/
+	top: 50%; /*offseting.. good positioning with transform translate*/
+	left: 50%;
+	transform: translate(-50%, -50%); /*x and y values*/ /*positionin
+}
